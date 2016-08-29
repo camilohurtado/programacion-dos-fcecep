@@ -89,11 +89,13 @@ public class OperacionMatrices {
 
 								System.out.println("Digite el elemento " + elemento + " : ");
 								element = lector.nextInt();
+								unidimensional[i] = element;
 								elemento++;
 							}
 
 							System.out.println("Vector unidimensional creado: " + Arrays.toString(unidimensional));
 							listadoVectores.add(unidimensional);
+							cont ++;
 						}
 
 						break;
